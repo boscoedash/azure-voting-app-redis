@@ -35,7 +35,7 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "acrbhlokana01"
-  CONTAINER_NAME: "azure-vote-front"
+  CONTAINER_NAME: "azure-vote-front:v1"
   RESOURCE_GROUP: "rg-container-app"
   CLUSTER_NAME: "aks-bhlokana-01"
   IMAGE_PULL_SECRET_NAME: "ghpullsecret"
